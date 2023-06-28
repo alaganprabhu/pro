@@ -750,12 +750,12 @@ border-top-right-radius:50px ;
 }
 .anchor{
     border: 1px solid black;
-    width: 90%;
+    width: 95%;
     height: 50px;
     margin-left: 20px;
     padding: 5px 30px;
     position: relative;
-    top: 75%;
+    top: 70%;
     display: flex;
     justify-content: space-around;
 }
