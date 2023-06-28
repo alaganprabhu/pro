@@ -772,15 +772,13 @@ border-top-right-radius:50px ;
 }
 .icon{
     position: relative;
-    top: 77%;
+    top: 76%;
     left: 0%;
     display: flex;
     justify-content:center ;
     gap: 10px;
     /* animation: up 5s linear; */
 }
-
-    
 
 /* ------------------- ABOUT---------------------- */
 #about{
@@ -1049,8 +1047,8 @@ display: none;
     border-top-right-radius: 20px;
     padding-right: 15px;
     padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 5px 8px 6px 2px;
