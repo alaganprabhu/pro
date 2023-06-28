@@ -739,6 +739,14 @@ display: none;
 }
 
 /* ---------SKILLS------------------------------------ */
+.skill{
+    background: url(img/sk.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    margin-top: 160px;
+}	
 .skill h1 {
     text-align: center;
     padding-top: 120px;
