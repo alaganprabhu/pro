@@ -755,7 +755,7 @@ border-top-right-radius:50px ;
     margin-left: 20px;
     padding: 5px 30px;
     position: relative;
-    top: 57%;
+    top: 70%;
     display: flex;
     justify-content: space-around;
 }
@@ -768,12 +768,11 @@ border-top-right-radius:50px ;
     height:100vh;
 }
 .nav a{
-    
     display: none;
 }
 .icon{
     position: relative;
-    top: 57%;
+    top: 71%;
     left: 0%;
     display: flex;
     justify-content:center ;
