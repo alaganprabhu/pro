@@ -287,6 +287,7 @@ display: none;
     left: 44%;
     display: flex;
     gap: 10px;
+    width: 300px;
     /* animation: up 5s linear; */
 }
 @keyframes up{
@@ -311,25 +312,31 @@ display: none;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    transition: 1s;
 }
-
 .fa-facebook {
-    border: 1px solid black;
+    border: 1px solid red;
     color: black;
     position: relative;
     border-radius: 50%;
 }
 .fa-linkedin {
-    border: 1px solid black;
+    border: 1px solid red;
     color: black;
     border-radius: 50%;
 }
 .fa-instagram {
-    border: 1px solid black;
+    border: 1px solid red;
     color: black;
     border-radius: 50%;
   }
-
+.fa:hover{
+    background: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 1px 1px black;
+}
 
 
 /* ---- */
@@ -439,11 +446,13 @@ border-top-right-radius:50px ;
     text-align: center;
     padding-top: 120px;
     font-size: 70px;
-    font-family:fantasy;
+    font-family: fantasy;
     font-variant: small-caps;
     font-weight: bold;
     letter-spacing: 15px;
-    filter:drop-shadow(5px 3px 2px  black)
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+    filter: drop-shadow(2px 2px 0px black);
 }
 .skil1{
     height: 600px;
@@ -882,7 +891,9 @@ display: none;
     /* border-bottom: 3px solid black; */
     width: 96%;
     margin-left: 4px;
-    filter: none;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+    filter: drop-shadow(2px 2px 0px black);
 }
 .skil1{
     height: 600px;
