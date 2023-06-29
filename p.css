@@ -693,6 +693,7 @@ border-top-right-radius:50px ;
 #imag img{
     width: 90%;
     height: 400px;
+    margin-top:-30px
 }
 .head{
     position: relative;
