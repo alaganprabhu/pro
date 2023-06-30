@@ -29,8 +29,14 @@
     
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50"  >
-    <div id="home">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" onload="myFunction() >
+<div id="ring">Loading
+    <span id="pan"></span>
+</div>
+
+<div id="myDiv">
+
+<div id="home">
 
 <!-------- navbar -->
         <div class="nav">
@@ -316,6 +322,20 @@
     document.getElementById("mySidenav").style.width = "0";
   }
   </script>
+<script>
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("ring").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+    
+
+</div>
 
 </body>
 </html>
