@@ -562,6 +562,10 @@ border-top-right-radius:50px ;
     color: floralwhite;
     -webkit-text-stroke: 1.5px black;
 }
+#chev:hover{
+    transform: none;
+    background: none;
+}
 .skil1{
     height: 600px;
     width:900px;
